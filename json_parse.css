@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to bottom right,#6c4298,#65635e);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+#myform{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+#myform input{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom:2px solid rgb(6, 0, 26) ;
+    padding-top: 10px;
+    margin-top: 5px;
+    color:rgb(6, 0, 26) ;
+}
+ #btns{
+    border-bottom: none;
+
+}

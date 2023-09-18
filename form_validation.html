@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_validation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <form name="myform" method="POST" class="myforms">
+        <label for="name"  >Name:</label><br>
+        <input type="text" placeholder="Enter your name" name="name">
+        <span id="nameError"></span>
+        <br>
+        <br>
+        <label for="email">Email :</label><br>
+        <input type="email" placeholder="xyz@gmail.com" name="email">
+        <span id="emailError"></span>
+        <br>
+        <br>
+        <label for="password">Password :</label><br>
+        <input type="password"placeholder="Atleast 8 character" name="pwd1"><br><br>
+        <label for="confirm_password">Confirm password :</label><br>
+        <input type="password" name="pwd2">
+        <span id="pwError"></span>
+        <br>
+        <br>
+        <button type="button" class="btn" onclick="return FormValidate()" id="btns">submit</button>
+    </form>
+
+<script src="form_val.js"></script>
+</body>
+</html>
